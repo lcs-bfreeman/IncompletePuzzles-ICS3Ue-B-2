@@ -52,7 +52,7 @@ class TheCellSellTests: XCTestCase {
         XCTAssertEqual("""
             Plan A costs 7120
             Plan B costs 7120
-            Plans A and B are the same price.
+            Plan A and B are the same price.
             """,
                        compareCosts(day: 296,
                                     evening: 140,

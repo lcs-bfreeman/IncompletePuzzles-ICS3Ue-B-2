@@ -27,10 +27,36 @@ func translate(phrase shortForm: String) -> String {
         return "totally awesome"
     } else if phrase == "TTYL" {
         return "talk to you later"
-    }
-
+    } else if phrase == "CU" {
+        return "see you"
+    } else if phrase == ":-)" {
+    return " I'm happy"
+    } else if phrase == ":-(" {
+    return "I'm unhappy"
+} else if phrase == ";-)" {
+    return "wink"
+} else if phrase == ":-p" {
+    return "stick out my toung"
+} else if phrase == "(~.~)" {
+    return "sleapy"
+} else if phrase == "TA" {
+    return "totally awsome"
+} else if phrase == "CCC" {
+    return "Canadian Cheese Champion"
+} else if phrase == "CUZ" {
+    return "because"
+} else if phrase == "TY" {
+    return "thank-you"
+} else if phrase == "YW" {
+    return "you're welcome"
+} else if phrase == "TTYL" {
+    return "talk to you later"
 }
-
+    
+return phrase
+    
+}
+    
 // OUTPUT
 let output = translate(phrase: phrase)
 print(output)

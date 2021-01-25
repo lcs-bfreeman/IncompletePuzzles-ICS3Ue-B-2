@@ -32,7 +32,6 @@ let evening = Int(readLine()!)!
 print("Number of weekend minutes?")
 let weekend = Int(readLine()!)!
 
-// INPUT
 
 // PROCESS
 //
