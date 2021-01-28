@@ -68,8 +68,7 @@ class ShiftySumsTests: XCTestCase {
         print("When n is \(n) and k is \(k) the shifted value should be \(shiftedValue)")
         
         // Actually run the test
-        XCTAssertEqual(shiftedValue, shift(n: n,
-                                           k: k))
+        XCTAssertEqual(shiftedValue, shift(n: n, k: k))
     }
     
     func testCaseB() {
