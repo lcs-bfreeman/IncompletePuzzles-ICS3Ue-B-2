@@ -30,25 +30,29 @@ print("   ", terminator: "")
 let handleLength = Int(readLine()!)!
 
 func drawTrident(tineLength t: Int, tineSpacing s: Int, handleLength h: Int) -> String {
+    
+    // Start building the output string
+    var output = ""
+    
     for _ in 1...t {
         // Print the tines
-        for _ in 1...3 {
+        for i in 1...3 {
             
             // Print part of a tine
             print("*", terminator: "")
-            
-            // Print space between tines
-            for _ in 1...s {
-                print(" ", terminator: "")
+            if i < 3 {
+                // Print space between tines
+                for _ in 1...s {
+                    print(" ", terminator: "")
+                }
             }
-            
         }
         // Go to next line of output
         print("")
     }
     for _ in 1...1 {
         for _ in 1...2 {
-          
+            
             print("*", terminator: "")
             
             for _ in 1...s  {
@@ -58,16 +62,16 @@ func drawTrident(tineLength t: Int, tineSpacing s: Int, handleLength h: Int) -> 
         print("*", terminator: "")
         print("")
     }
-
+    
     for _ in 1...h {
         
         for _ in 1...s + 1 {
             print(" ", terminator: "")
         }
-
+        
         print("*", terminator: "")
-
-    print("")
+        
+        print("")
     }
     return bob
 }
