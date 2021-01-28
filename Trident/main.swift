@@ -18,19 +18,19 @@ print("=======")
 // Get tine length
 print("Enter tine length:")
 print("   ", terminator: "")
-let t = Int(readLine()!)!
+let tineLength = Int(readLine()!)!
 
 // Get tine spacing
 print("Enter tine spacing:")
 print("   ", terminator: "")
-let s = Int(readLine()!)!
+let tineSpacing = Int(readLine()!)!
 
 print("Enter the handle lenght")
 print("   ", terminator: "")
-let h = Int(readLine()!)!
+let handleLength = Int(readLine()!)!
 
-func drawTrident(t tineLength: Int, s tineSpacing: Int, h handleLength: Int) -> String {
-    for _ in 1...tineLength {
+func drawTrident(tineLength t: Int, tineSpacing s: Int, handleLength h: Int) -> String {
+    for _ in 1...t {
         // Print the tines
         for _ in 1...3 {
             
@@ -38,7 +38,7 @@ func drawTrident(t tineLength: Int, s tineSpacing: Int, h handleLength: Int) -> 
             print("*", terminator: "")
             
             // Print space between tines
-            for _ in 1...tineSpacing {
+            for _ in 1...s {
                 print(" ", terminator: "")
             }
             
@@ -51,7 +51,7 @@ func drawTrident(t tineLength: Int, s tineSpacing: Int, h handleLength: Int) -> 
           
             print("*", terminator: "")
             
-            for _ in 1...tineSpacing  {
+            for _ in 1...s  {
                 print("*", terminator: "")
             }
         }
@@ -59,9 +59,9 @@ func drawTrident(t tineLength: Int, s tineSpacing: Int, h handleLength: Int) -> 
         print("")
     }
 
-    for _ in 1...handleLength {
+    for _ in 1...h {
         
-        for _ in 1...tineSpacing + 1 {
+        for _ in 1...s + 1 {
             print(" ", terminator: "")
         }
 
@@ -76,7 +76,7 @@ var bob = " "
 
 // OUTPUT
 
-let droup = drawTrident(t: t, s: s, h: h)
+let droup = drawTrident(tineLength: tineLength, tineSpacing: tineSpacing, handleLength: handleLength)
 print (droup)
 
 
