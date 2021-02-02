@@ -77,7 +77,7 @@ static func  collectInput(withPrompt prompt: String, minimum: Double?, maximum: 
             continue
         }
         
-        // If a lowest value for the integer was specified...
+        // If a lowest value for the Double was specified...
         if let minimumValue = minimum {
             
             // ... then check that the given Double is greater than or equal to the lowest desired value.
@@ -98,7 +98,7 @@ static func  collectInput(withPrompt prompt: String, minimum: Double?, maximum: 
             
         }
         
-        // If we've made it past all the checks, the input is an integer in the desired range of values, so, return it
+        // If we've made it past all the checks, the input is an Double in the desired range of values, so, return it
         return givenDouble
         
     }
