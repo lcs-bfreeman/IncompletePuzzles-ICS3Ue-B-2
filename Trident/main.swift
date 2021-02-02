@@ -18,18 +18,20 @@ print("=======")
 // Get tine length
 print("Enter tine length:")
 print("   ", terminator: "")
-let tineLength = Int(readLine()!)!
+let t = Int(readLine()!)!
 
 // Get tine spacing
 print("Enter tine spacing:")
 print("   ", terminator: "")
-let tineSpacing = Int(readLine()!)!
+let s = Int(readLine()!)!
 
 print("Enter the handle lenght")
 print("   ", terminator: "")
-let handleLength = Int(readLine()!)!
+let h = Int(readLine()!)!
 
-func drawTrident(tineLength t: Int, tineSpacing s: Int, handleLength h: Int) -> String {
+func drawTrident(tineLength t: Int,
+                 tineSpacing s: Int,
+                 handleLength h: Int) -> String {
     
     // Start building the output string
     var output = ""
@@ -39,49 +41,64 @@ func drawTrident(tineLength t: Int, tineSpacing s: Int, handleLength h: Int) -> 
         for i in 1...3 {
             
             // Print part of a tine
-            print("*", terminator: "")
+            output += "*"
             if i < 3 {
                 // Print space between tines
                 for _ in 1...s {
-                    print(" ", terminator: "")
+                    output += " "
                 }
             }
         }
         // Go to next line of output
-        print("")
+        output += "\n"
     }
     for _ in 1...1 {
         for _ in 1...2 {
             
-            print("*", terminator: "")
+            output += "*"
             
             for _ in 1...s  {
-                print("*", terminator: "")
+                output += "*"
             }
         }
-        print("*", terminator: "")
-        print("")
+        output += "*"
+        output += "\n"
     }
     
     for _ in 1...h {
         
         for _ in 1...s + 1 {
-            print(" ", terminator: "")
+            output += " "
         }
         
-        print("*", terminator: "")
+        output += "*"
         
-        print("")
+        output += "\n"
     }
-    return bob
+    return output
 }
-var bob = " "
 
 
 // OUTPUT
 
-let droup = drawTrident(tineLength: tineLength, tineSpacing: tineSpacing, handleLength: handleLength)
-print (droup)
+let droup = drawTrident(tineLength: t, tineSpacing: s, handleLength: h)
+print(droup)
 
 
-
+//error: -[TridentTests.TridentTests testCaseA] : XCTAssertEqual failed:
+//  *   *   *
+//  *   *   *
+//  *********
+//      *
+//      *
+//      *
+//      *
+    //is not equal to
+//*   *   *
+//*   *   *
+//*********
+//    *
+//    *
+//    *
+//    *
+//")
