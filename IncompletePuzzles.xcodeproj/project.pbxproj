@@ -56,6 +56,8 @@
 		D73DCFB125BF283100AB975F /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E7364C02528B54400F3914E /* main.swift */; };
 		D7888B1325C90E670039174A /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7888B1225C90E670039174A /* Extensions.swift */; };
 		D7888B1F25C90FB60039174A /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7888B1225C90E670039174A /* Extensions.swift */; };
+		D7D4F7F425DEB32C0006906A /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7888B1225C90E670039174A /* Extensions.swift */; };
+		D7D4F80025DEB3300006906A /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7888B1225C90E670039174A /* Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -785,6 +787,7 @@
 			files = (
 				D73DCFB125BF283100AB975F /* main.swift in Sources */,
 				0E08FCB9254B23EE0014C595 /* RSANumbersTests.swift in Sources */,
+				D7D4F80025DEB3300006906A /* Extensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -811,6 +814,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0E7364C12528B54400F3914E /* main.swift in Sources */,
+				D7D4F7F425DEB32C0006906A /* Extensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
