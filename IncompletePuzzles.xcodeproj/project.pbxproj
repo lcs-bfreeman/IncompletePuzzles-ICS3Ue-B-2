@@ -54,6 +54,18 @@
 		D73DCF9B25BF282000AB975F /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E736521252B632200F3914E /* main.swift */; };
 		D73DCFA625BF282A00AB975F /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EE0D95E252563ED0090B2E0 /* main.swift */; };
 		D73DCFB125BF283100AB975F /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E7364C02528B54400F3914E /* main.swift */; };
+		D7857AFA25E41F1900F6132E /* iOS_ISpeakTXTMSGApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7857AF925E41F1900F6132E /* iOS_ISpeakTXTMSGApp.swift */; };
+		D7857AFC25E41F1900F6132E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7857AFB25E41F1900F6132E /* ContentView.swift */; };
+		D7857AFE25E41F2100F6132E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D7857AFD25E41F2100F6132E /* Assets.xcassets */; };
+		D7857B0125E41F2100F6132E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D7857B0025E41F2100F6132E /* Preview Assets.xcassets */; };
+		D7857B1325E41F7B00F6132E /* Functios.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7857B1225E41F7B00F6132E /* Functios.swift */; };
+		D7857B1425E41F7B00F6132E /* Functios.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7857B1225E41F7B00F6132E /* Functios.swift */; };
+		D7857B1525E41F7B00F6132E /* Functios.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7857B1225E41F7B00F6132E /* Functios.swift */; };
+		D7857B1625E41F7B00F6132E /* Functios.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7857B1225E41F7B00F6132E /* Functios.swift */; };
+		D7857B2325E41F9900F6132E /* Functios.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7857B1225E41F7B00F6132E /* Functios.swift */; };
+		D7857B3025E41FA100F6132E /* Functios.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7857B1225E41F7B00F6132E /* Functios.swift */; };
+		D7857B3D25E41FA800F6132E /* Functios.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7857B1225E41F7B00F6132E /* Functios.swift */; };
+		D7857B5725E4A54E00F6132E /* SearchBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7857B5625E4A54E00F6132E /* SearchBarView.swift */; };
 		D7888B1325C90E670039174A /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7888B1225C90E670039174A /* Extensions.swift */; };
 		D7888B1F25C90FB60039174A /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7888B1225C90E670039174A /* Extensions.swift */; };
 		D7D4F7F425DEB32C0006906A /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7888B1225C90E670039174A /* Extensions.swift */; };
@@ -181,6 +193,14 @@
 		8140D45F25BB3241006B6DBB /* TheCellSellTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheCellSellTests.swift; sourceTree = "<group>"; };
 		8140D46125BB3241006B6DBB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D73DCFC025C0A6B200AB975F /* NumberSystem */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = NumberSystem; sourceTree = BUILT_PRODUCTS_DIR; };
+		D7857AF725E41F1900F6132E /* iOS-ISpeakTXTMSG.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iOS-ISpeakTXTMSG.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D7857AF925E41F1900F6132E /* iOS_ISpeakTXTMSGApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOS_ISpeakTXTMSGApp.swift; sourceTree = "<group>"; };
+		D7857AFB25E41F1900F6132E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		D7857AFD25E41F2100F6132E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D7857B0025E41F2100F6132E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D7857B0225E41F2100F6132E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D7857B1225E41F7B00F6132E /* Functios.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Functios.swift; sourceTree = "<group>"; };
+		D7857B5625E4A54E00F6132E /* SearchBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBarView.swift; sourceTree = "<group>"; };
 		D7888B1225C90E670039174A /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -256,6 +276,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		D73DCFBD25C0A6B200AB975F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D7857AF425E41F1900F6132E /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -382,12 +409,14 @@
 		0EE0D943252563B00090B2E0 = {
 			isa = PBXGroup;
 			children = (
+				D7857B1225E41F7B00F6132E /* Functios.swift */,
 				D7888B1225C90E670039174A /* Extensions.swift */,
 				0EE0D96A252564CB0090B2E0 /* TheCellSell */,
 				0E73652F252B64C800F3914E /* ISpeakTXTMSG */,
 				0E736520252B632200F3914E /* ShiftySums */,
 				0EE0D95D252563ED0090B2E0 /* Trident */,
 				0E7364BF2528B54400F3914E /* RSANumbers */,
+				D7857AF825E41F1900F6132E /* iOS-ISpeakTXTMSG */,
 				0EE0D94D252563B00090B2E0 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -406,6 +435,7 @@
 				0E48F488254B4C66007530A3 /* ISpeakTXTMSGTests.xctest */,
 				8140D45D25BB3241006B6DBB /* TheCellSellTests.xctest */,
 				D73DCFC025C0A6B200AB975F /* NumberSystem */,
+				D7857AF725E41F1900F6132E /* iOS-ISpeakTXTMSG.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -437,6 +467,27 @@
 				8140D46125BB3241006B6DBB /* Info.plist */,
 			);
 			path = TheCellSellTests;
+			sourceTree = "<group>";
+		};
+		D7857AF825E41F1900F6132E /* iOS-ISpeakTXTMSG */ = {
+			isa = PBXGroup;
+			children = (
+				D7857AF925E41F1900F6132E /* iOS_ISpeakTXTMSGApp.swift */,
+				D7857AFB25E41F1900F6132E /* ContentView.swift */,
+				D7857AFD25E41F2100F6132E /* Assets.xcassets */,
+				D7857B0225E41F2100F6132E /* Info.plist */,
+				D7857AFF25E41F2100F6132E /* Preview Content */,
+				D7857B5625E4A54E00F6132E /* SearchBarView.swift */,
+			);
+			path = "iOS-ISpeakTXTMSG";
+			sourceTree = "<group>";
+		};
+		D7857AFF25E41F2100F6132E /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				D7857B0025E41F2100F6132E /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -629,6 +680,23 @@
 			productReference = D73DCFC025C0A6B200AB975F /* NumberSystem */;
 			productType = "com.apple.product-type.tool";
 		};
+		D7857AF625E41F1900F6132E /* iOS-ISpeakTXTMSG */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D7857B0525E41F2100F6132E /* Build configuration list for PBXNativeTarget "iOS-ISpeakTXTMSG" */;
+			buildPhases = (
+				D7857AF325E41F1900F6132E /* Sources */,
+				D7857AF425E41F1900F6132E /* Frameworks */,
+				D7857AF525E41F1900F6132E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "iOS-ISpeakTXTMSG";
+			productName = "iOS-ISpeakTXTMSG";
+			productReference = D7857AF725E41F1900F6132E /* iOS-ISpeakTXTMSG.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -671,6 +739,9 @@
 					D73DCFBF25C0A6B200AB975F = {
 						CreatedOnToolsVersion = 12.3;
 					};
+					D7857AF625E41F1900F6132E = {
+						CreatedOnToolsVersion = 12.3;
+					};
 				};
 			};
 			buildConfigurationList = 0EE0D947252563B00090B2E0 /* Build configuration list for PBXProject "IncompletePuzzles" */;
@@ -697,6 +768,7 @@
 				0E7364BD2528B54300F3914E /* RSANumbers */,
 				0E08FCB5254B23EE0014C595 /* RSANumbersTests */,
 				D73DCFBF25C0A6B200AB975F /* NumberSystem */,
+				D7857AF625E41F1900F6132E /* iOS-ISpeakTXTMSG */,
 			);
 		};
 /* End PBXProject section */
@@ -769,6 +841,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		D7857AF525E41F1900F6132E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D7857B0125E41F2100F6132E /* Preview Assets.xcassets in Resources */,
+				D7857AFE25E41F2100F6132E /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -785,6 +866,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D7857B1625E41F7B00F6132E /* Functios.swift in Sources */,
 				D73DCFB125BF283100AB975F /* main.swift in Sources */,
 				0E08FCB9254B23EE0014C595 /* RSANumbersTests.swift in Sources */,
 				D7D4F80025DEB3300006906A /* Extensions.swift in Sources */,
@@ -806,6 +888,7 @@
 			files = (
 				D73DCF9025BF281500AB975F /* main.swift in Sources */,
 				0E48F48B254B4C66007530A3 /* ISpeakTXTMSGTests.swift in Sources */,
+				D7857B3025E41FA100F6132E /* Functios.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -813,6 +896,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D7857B1525E41F7B00F6132E /* Functios.swift in Sources */,
 				0E7364C12528B54400F3914E /* main.swift in Sources */,
 				D7D4F7F425DEB32C0006906A /* Extensions.swift in Sources */,
 			);
@@ -831,6 +915,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0E736531252B64C800F3914E /* main.swift in Sources */,
+				D7857B3D25E41FA800F6132E /* Functios.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -838,6 +923,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D7857B1425E41F7B00F6132E /* Functios.swift in Sources */,
 				0EE0D95F252563ED0090B2E0 /* main.swift in Sources */,
 				D7888B1F25C90FB60039174A /* Extensions.swift in Sources */,
 			);
@@ -847,6 +933,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D7857B1325E41F7B00F6132E /* Functios.swift in Sources */,
 				0EE0D96C252564CB0090B2E0 /* main.swift in Sources */,
 				D7888B1325C90E670039174A /* Extensions.swift in Sources */,
 			);
@@ -865,6 +952,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D7857AF325E41F1900F6132E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D7857B5725E4A54E00F6132E /* SearchBarView.swift in Sources */,
+				D7857AFC25E41F1900F6132E /* ContentView.swift in Sources */,
+				D7857AFA25E41F1900F6132E /* iOS_ISpeakTXTMSGApp.swift in Sources */,
+				D7857B2325E41F9900F6132E /* Functios.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1298,6 +1396,53 @@
 			};
 			name = Release;
 		};
+		D7857B0325E41F2100F6132E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"iOS-ISpeakTXTMSG/Preview Content\"";
+				DEVELOPMENT_TEAM = GLLK6ZL2B5;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "iOS-ISpeakTXTMSG/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "ca.benjaminfreeman.iOS-ISpeakTXTMSG";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D7857B0425E41F2100F6132E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"iOS-ISpeakTXTMSG/Preview Content\"";
+				DEVELOPMENT_TEAM = GLLK6ZL2B5;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "iOS-ISpeakTXTMSG/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "ca.benjaminfreeman.iOS-ISpeakTXTMSG";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -1405,6 +1550,15 @@
 			buildConfigurations = (
 				D73DCFC525C0A6B200AB975F /* Debug */,
 				D73DCFC625C0A6B200AB975F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D7857B0525E41F2100F6132E /* Build configuration list for PBXNativeTarget "iOS-ISpeakTXTMSG" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D7857B0325E41F2100F6132E /* Debug */,
+				D7857B0425E41F2100F6132E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
